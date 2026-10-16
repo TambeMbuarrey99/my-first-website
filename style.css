@@ -1,0 +1,62 @@
+#welcome {text-align: center; padding: 30px; background-color: whkites; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); max-width: 800px; margin: 30px auto;}
+#welcome img{border-radius: 15px; max-width: 100%; box-shadow: 0 4px 12px rgba(0,0,0,0.2); margin: 20px 0; transition: transform 0.3s ease; cursor: pointer; border: 3px solid darkblue;}
+#welcome img:hover{transform: scale(1.05);}
+
+#skills{background-color: #ffffff; padding: 25px; margin: 30px 0; border: 1px solid #ddd; border-radius: 10px; } #skills h2 { color: #04AA6D; text-align: center;} .skill {background-color: #f4f4f4; padding: 15px; margin: 15px 0; border-radius: 8px;} .skill h3 {margin-top: 0;} .skill p{line-height: 1.6;}
+#contact{background-color: #f4f4f4; padding: 30px; margin: 30px 0; border-radius: 10px; text-align: center;} #contact h2{color: #04AA6D;} #contact p {font-size: 17px; line-height: 1.6;} #contact a {display: inline-block; background-color: #04AA6D; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 10px; transition: 0.3s;} #contact a:hover {background-color: #038855; color: white; transform: translateY(-3px);}
+#welcome p{font-size: 20px; margin-bottom: 25px; line-height: 1.6;} #welcome a {display: inline-block; background-color: white; color: #04AA6D; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.3s;} #welcome a:hover{background-color: #04AA6D; color: white; transform: translateY(-3px);}
+#services{ background-color body {background-color: lightgray; font-family: Arial,sans-serif; color: #333333; line-height: 1.6;}}
+h1 {color: green; font-size: 36px; text-align: center;}
+            nav{ background-color: green; padding: 15px; text-align:center; border-radius: 18px; box-shadow: 0 4px 8px rgba (0, 0, 0, 0.2);}
+            nav a {color: white; text-decoration: none; margin-right: 20px; }
+            nav a:hover {color: yellow;}
+        nav a {font-size: 24px !important;}
+             nav a, nav a :link, nav a:visited {font-size: 24px !important; font-weight: bold !important; color: white !important;} 
+            body{  background-color : lightgray; font-family: Arial,sans-serif; color:#333333; margin: 0; padding:20px}
+            h1{  color :green; text-align: center; font-size: 36px; border-bottom: 2px solid green;}
+            p{  color: #333333; text-align: center; font-size: 24px; line-height: 1.8;} button{ font-size: 20px; padding: 10px 20px; display: block; margin: 20px auto;} button:hover {background-color: yellow; color: black; border-radius: 10px; cursor: pointer; background-color: blue; color: white;}
+@media (max-width: 600px) { main { margin: 15px; padding: 15px;} p{ font-size: 18px;} }
+nav a {color: white; font-size: 24px; font-weight: bold; padding: 10px;}
+@media (max-width: 600px) { nav {display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; padding: 10px;} nav a {font-size: 16px !important; padding: 8px;} }
+img { max-width: 100%; height: auto; display: block;}
+@media(max-width: 600px) { h1 {font-size: 28px;} h2{font-size: 24px;} }
+html,body{ max-width: 100%; overflow-x:hidden;}
+section{ margin-bottom: 30px; padding: 15px;}
+button{ background-color: green; color: white; padding:12px 20px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;} button:hover {background-color: darkgreen;}
+@media (max-width: 600px) { button {padding: 14px 24px; font-size: 18px; width: 100%;} }
+footer{background-color:#222; color: white; text-align: center; padding: 25px; margin-top: 30px; width: 100%; box-sizing: border-box;}
+footer p{ color: white; font-size: 20px; margin:0;}  
+footer p:hover{color: yellow; cursor: pointer;}
+footer a {color: lightblue; text-decoration: none; font-weight: bold;} footer a hover{ color: yellow; text-decoration: underline;}
+footer p {margin: 10px 0; line-height: 1.6;}
+footer a{ color: #00bfff; font-size: 20; font-weight: bold; text-decoration: none; display: inline-block; margin: 5px; padding: 5px;} footer a:hover{color: yellow; text-decoration: underline;}
+nav {background-color: darkblue; padding: 15%; text-align: center; border-bottom: 3px solid #04AA6D; box-shadow: 0 4px 8px rgba(0,0,0,0.2);} nav a {color: white; text-decoration: none; font-size: 20px; padding: 10px 15px; display: inline-block; margin: 5px; transition: 0.3s;} nav a:hover{background-color: #04AA6D; color: white;}
+#about{background-color: #f4f4f4; padding: 25px; margin: 30px; border-radius: 10px;} #about h2 {color: #04AA6D; text-align: center;} #about p {font-size: 17px; line-height: 1.6;}#ffffff; padding: 30px; margin: 30px 0; border-radius: 10px;} #services h2 {color: #04AA6D; text-align: center; margin-bottom: 25px;} .services{ background-color: #f4f4f4; padding: 20px; margin: 15px 0; border-left: 5px solid #04AA6D; border-radius: 8px; transition: 0.3s;} .services p{ font-size: 16x; line-height: 1.6;} .services:hover{transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.15);}
+html{scroll-behavior: smooth;}
+#services {display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px;} #services h2{grid-column: 1 / -1;} #services .service { margin: 0;}
+
+body{ background-color: #f0f8ff; font-family: Arial,sans-serif; min-width: 100vh; display: flex; flex-direction: column; margin: 0;}
+
+h1 {color:  darkblue; font-size: 40px; margin-bottom: 20px;}
+p{font-size: 24px; color: #444444; line-height: 1.6;}
+
+#welcome a{ display: inline-block; background-color: darkblue; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px;}
+
+#welcome a:hover{background-color: green;}
+
+@media(max-width:600px){ #welcome{padding:15px; margin:15px;} #welcome img{max-width:100%; height: auto;}}
+
+footer{background-color: darkblue; color: wbhite; text-align: center; padding: 20px; margin-top: auto;}
+
+footer a {color: white; text-decoration: none; margin: 0 10px; transition: color 0.3s ease;} 
+
+footer a:hover{color: yellow;}
+
+*{box-sizing: border-box;}
+
+#contact input, #contact teatarea {width: 100%; padding: 12px; margin-top: 8px; border: 1px solid #cccccc; border-radius: 5px; font-size: 16px;}
+
+#contact button{ background-color: darkblue; color: white; padding: 12px 25px; border-radius: 8px; font-size: 16px; cursor: pointer;}
+#contact button:hover {background-color: green;}
+
+#contact form{ max-width: 500px; margin: 20px auto;}
